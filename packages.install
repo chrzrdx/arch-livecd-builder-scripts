@@ -1,0 +1,168 @@
+# base-devel
+autoconf
+automake
+binutils
+bison
+fakeroot
+file
+findutils
+flex
+gawk
+gcc
+gettext
+grep
+groff
+gzip
+libtool
+m4
+make
+pacman
+patch
+pkg-config
+sed
+sudo
+texinfo
+util-linux
+which
+
+# x
+xorg-server
+xorg-server-utils
+xorg-xinit
+xterm
+
+# misc system
+dbus
+
+# graphics/input drivers 
+xf86-video-intel
+xf86-input-synaptics
+libva-intel-driver
+libvdpau-va-gl
+
+# i3 _selected 
+i3-wm
+i3lock
+i3status
+dmenu
+rofi
+
+# gvfs _for trash 
+gamin
+gvfs
+gvfs-smb
+
+# file-manager
+pcmanfm
+file-roller
+
+# filesystem support for ntfs 
+ntfs-3g 
+
+# internet
+chromium
+transmission-gtk
+irssi
+
+# git
+git
+
+# misc applications
+feh
+lxappearance
+gpicview
+redshift
+
+# terminal
+termite
+
+# music
+mpd
+mpc
+ncmpcpp
+
+# pdf-reader and plugins
+zathura
+zathura-pdf-mupdf
+zathura-djvu
+zathura-ps
+
+# video related 
+ffmpeg
+mpv
+gst-libav
+gst-plugins-base
+gst-plugins-good
+
+# utilities 
+fzf
+gparted
+hunspell
+hunspell-en
+wget
+mlocate
+curl
+openssh
+bc
+sshfs
+unrar
+stow
+reflector
+rsync
+htop
+lsof
+strace
+scrot
+
+# editor
+neovim
+python-neovim
+
+# arch docs from terminal 
+arch-wiki-lite
+arch-wiki-docs
+
+# network 
+networkmanager
+network-manager-applet
+iw
+wpa_supplicant
+
+# sound 
+alsa-utils
+alsa-plugins
+alsa-lib
+pulseaudio
+ponymix
+pavucontrol
+
+# display manager 
+slim 
+
+# python 
+python
+python2
+
+# polkit 
+polkit 
+
+# fonts 
+xorg-fonts-misc
+ttf-liberation
+ttf-dejavu
+adobe-source-sans-pro-fonts
+adobe-source-code-pro-fonts
+adobe-source-serif-pro-fonts
+tamsyn-font
+
+# theming 
+gtk-engines
+gnome-themes-standard
+gnome-icon-theme
+xcursor-vanilla-dmz-aa
+archlinux-themes-slim
+
+# zsh 
+zsh
+zsh-completions
+zsh-syntax-highlighting
