@@ -1,4 +1,4 @@
-% Custom Arch Linux Live USB Build
+# Custom Arch Linux Live USB Build
 
 run (as root) :
 ```
