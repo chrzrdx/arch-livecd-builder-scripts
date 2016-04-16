@@ -134,8 +134,7 @@ mode $sysmenu {
     bindsym Escape    mode "default"
 }
 
-#bindsym $mod+$modalt+l exec --no-startup-id i3lock -c 000000 -d
-bindsym $mod+$modalt+l exec --no-startup-id i3lock -i ~/.i3/lock.png
+bindsym $mod+$modalt+l exec --no-startup-id i3lock -c 000000 -d
 
 # resize window (you can also use the mouse for that)
 mode "resize" {

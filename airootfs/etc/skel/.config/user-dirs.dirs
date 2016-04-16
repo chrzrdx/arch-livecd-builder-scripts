@@ -1,1 +1,8 @@
-../.dotfiles/xdg/.config/user-dirs.dirs
+XDG_DESKTOP_DIR="$HOME"
+XDG_DOCUMENTS_DIR="$HOME/doc"
+XDG_DOWNLOAD_DIR="$HOME/dwn"
+XDG_MUSIC_DIR="$HOME/mus"
+XDG_PICTURES_DIR="$HOME/pic"
+XDG_PUBLICSHARE_DIR="$HOME/shr"
+XDG_TEMPLATES_DIR="$HOME/.templates"
+XDG_VIDEOS_DIR="$HOME/vid"

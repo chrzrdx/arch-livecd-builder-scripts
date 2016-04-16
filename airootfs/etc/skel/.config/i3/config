@@ -134,8 +134,7 @@ mode $sysmenu {
     bindsym Escape    mode "default"
 }
 
-#bindsym $mod+$modalt+l exec --no-startup-id i3lock -c 000000 -d
-bindsym $mod+$modalt+l exec --no-startup-id i3lock -i ~/.i3/lock.png
+bindsym $mod+$modalt+l exec --no-startup-id i3lock -c 000000 -d
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -172,7 +171,7 @@ bar {
             urgent_workspace   #f44336 #f44336 #ffffff
     }
     position bottom
-    status_command i3status -c ~/.i3/i3status.conf
+    status_command i3status -c ~/.config/i3/i3status.conf
 }
 
 
