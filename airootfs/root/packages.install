@@ -103,6 +103,7 @@ i3lock
 i3status
 dmenu
 rofi
+dunst
 
 # gvfs _for trash 
 gamin

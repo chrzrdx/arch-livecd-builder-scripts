@@ -40,6 +40,7 @@ i3-wm
 i3lock
 i3status
 dmenu
+dunst
 
 # gvfs _for trash 
 gamin
@@ -118,6 +119,7 @@ wpa_supplicant
 alsa-utils
 alsa-plugins
 alsa-lib
+pulseaudio
 
 # display manager 
 slim
