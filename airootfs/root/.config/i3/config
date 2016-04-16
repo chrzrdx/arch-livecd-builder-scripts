@@ -172,7 +172,7 @@ bar {
             urgent_workspace   #f44336 #f44336 #ffffff
     }
     position bottom
-    status_command i3status -c ~/.i3/i3status.conf
+    status_command i3status -c ~/.config/i3/i3status.conf
 }
 
 

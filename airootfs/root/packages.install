@@ -1,3 +1,55 @@
+# base
+bash
+bzip2
+coreutils
+cryptsetup
+device-mapper
+dhcpcd
+diffutils
+e2fsprogs
+file
+filesystem
+findutils
+gawk
+gcc-libs
+gettext
+glibc
+grep
+gzip
+inetutils
+iproute2
+iputils
+jfsutils
+less
+licenses
+linux-lts
+logrotate
+lvm2
+man-db
+man-pages
+mdadm
+nano
+netctl
+pacman
+pciutils
+pcmciautils
+perl
+procps-ng
+psmisc
+reiserfsprogs
+s-nail
+sed
+shadow
+sysfsutils
+systemd-sysvcompat
+tar
+texinfo
+usbutils
+util-linux
+vi
+which
+xfsprogs
+
 # linux-lts
 linux-lts
 linux-lts-headers
@@ -65,7 +117,6 @@ file-roller
 ntfs-3g 
 
 # internet
-firefox
 chromium
 transmission-gtk
 irssi
@@ -143,8 +194,7 @@ ponymix
 pavucontrol
 
 # display manager 
-slim
-archlinux-themes-slim
+slim 
 
 # python 
 python
@@ -165,7 +215,7 @@ tamsyn-font
 # theming 
 gtk-engines
 gnome-themes-standard
-gnome-icon-theme
+adwaita-icon-theme
 xcursor-vanilla-dmz-aa
 archlinux-themes-slim
 

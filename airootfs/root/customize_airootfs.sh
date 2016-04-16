@@ -2,8 +2,9 @@
 
 set -e -u
 
-sed -i 's/#\(en_IN\.UTF-8\)/\1/' /etc/locale.gen
+sed -i 's/#\(en_US\.UTF-8\)/\1/' /etc/locale.gen
 locale-gen
+localectl set-locale LANG=en_IN.UTF-8 LC_COLLATE=C
 
 ln -sf /usr/share/zoneinfo/Asia/Calcutta /etc/localtime
 
@@ -18,6 +19,8 @@ sed -i 's/#\(Storage=\)auto/\1volatile/' /etc/systemd/journald.conf
 sed -i 's/#\(HandleSuspendKey=\)suspend/\1ignore/' /etc/systemd/logind.conf
 sed -i 's/#\(HandleHibernateKey=\)hibernate/\1ignore/' /etc/systemd/logind.conf
 sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
+
+sed -i 's/^current_theme.*/current_theme archlinux-simplyblack/' /etc/slim.conf
 
 systemctl enable pacman-init.service choose-mirror.service NetworkManager.service slim.service
 systemctl set-default graphical.target
