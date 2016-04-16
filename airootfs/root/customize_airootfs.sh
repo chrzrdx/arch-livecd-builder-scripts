@@ -4,7 +4,6 @@ set -e -u
 
 sed -i 's/#\(en_US\.UTF-8\)/\1/' /etc/locale.gen
 locale-gen
-localectl set-locale LANG=en_IN.UTF-8 LC_COLLATE=C
 
 ln -sf /usr/share/zoneinfo/Asia/Calcutta /etc/localtime
 

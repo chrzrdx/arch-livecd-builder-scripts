@@ -118,11 +118,13 @@ ntfs-3g
 
 # internet
 chromium
+firefox
 transmission-gtk
 irssi
 
 # git
 git
+tig
 
 # misc applications
 feh
@@ -174,6 +176,12 @@ scrot
 # editor
 neovim
 python-neovim
+
+# pandoc and haskell stack
+pandoc
+pandoc-citeproc
+stack
+ghc
 
 # arch docs from terminal 
 arch-wiki-lite

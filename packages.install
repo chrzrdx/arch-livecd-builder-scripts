@@ -1,8 +1,3 @@
-# linux-lts
-linux-lts
-linux-lts-headers
-intel-ucode
-
 # base-devel
 autoconf
 automake
@@ -36,21 +31,15 @@ xorg-server-utils
 xorg-xinit
 xterm
 
-# misc system
-dbus
-
 # graphics/input drivers 
 xf86-video-intel
 xf86-input-synaptics
-libva-intel-driver
-libvdpau-va-gl
 
 # i3 _selected 
 i3-wm
 i3lock
 i3status
 dmenu
-rofi
 
 # gvfs _for trash 
 gamin
@@ -66,8 +55,6 @@ ntfs-3g
 
 # internet
 firefox
-chromium
-transmission-gtk
 irssi
 
 # git
@@ -81,11 +68,6 @@ redshift
 
 # terminal
 termite
-
-# music
-mpd
-mpc
-ncmpcpp
 
 # pdf-reader and plugins
 zathura
@@ -101,8 +83,6 @@ gst-plugins-base
 gst-plugins-good
 
 # utilities 
-fzf
-gparted
 hunspell
 hunspell-en
 wget
@@ -138,9 +118,6 @@ wpa_supplicant
 alsa-utils
 alsa-plugins
 alsa-lib
-pulseaudio
-ponymix
-pavucontrol
 
 # display manager 
 slim
